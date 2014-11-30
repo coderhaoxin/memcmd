@@ -6,3 +6,6 @@ script:
   - go test
 services:
   - memcached
+install:
+  - go get github.com/bradfitz/gomemcache/memcache
+  - go get github.com/tj/go-debug
